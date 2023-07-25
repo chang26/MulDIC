@@ -327,7 +327,6 @@ class CNN(nn.Module):
 
     def forward(self, x):
         x = x.view(x.size(0), 1, x.size(1), x.size(2))
-        print(x.size())
 
         out2 = self.conv2d_filter2(x)
         out3 = self.conv2d_filter3(x)

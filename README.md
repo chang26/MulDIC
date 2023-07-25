@@ -25,10 +25,8 @@ AppliedSciences_MulDIC: A Multimodal Deep Learning Model using Text, Image, and 
 
 0) pip install -r requirements.txt
 
-1) Unzip Data.zip
+1) Unzip Datasets.7z
 
-2) execute make_folder_tree.py
+2) Extract all the folders inside 'empty folders.7z' to the 'src' folder.
 
-3) execute MAIN_RQ1.py
-
-4) execute MAIN_RQ2,3,4.py -->
+3) execute MAIN_XXX.py -->

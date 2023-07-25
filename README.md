@@ -20,13 +20,12 @@ AppliedSciences_MulDIC: A Multimodal Deep Learning Model using Text, Image, and 
  * torchvision==0.14.1 (Can find from https://pytorch.org/)
  * torchaudio==0.13.1 (Can find from https://pytorch.org/)
  * The others can find in requirements.txt
-<!-- 
-# Sequence
 
+# Sequence
 0) pip install -r requirements.txt
 
 1) Unzip Datasets.7z
 
 2) Extract all the folders inside 'empty folders.7z' to the 'src' folder.
 
-3) execute MAIN_XXX.py -->
+3) execute MAIN_XXX.py

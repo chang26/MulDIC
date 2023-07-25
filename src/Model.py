@@ -2,8 +2,6 @@ import torch
 import torch.nn as nn
 from Models import Models
 
-import random
-
 class Model:
     def __init__(self, modelType=None, numClass=None, numCell=None, maxLen=None, test=False):
         if not test:

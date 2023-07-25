@@ -1,10 +1,11 @@
 import os
 import numpy as np
 from collections import Counter
-import json
 import time
 import torch
 import torch.nn as nn
+import pandas as pd
+import random
 
 from TextPreprocessor import TextPreprocessor
 from Trainer import Trainer
@@ -16,17 +17,8 @@ from sklearn.metrics import recall_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import accuracy_score
 
-import pandas as pd
-from sklearn.model_selection import train_test_split
-import random
-
-import torch.optim as optim
-import torch.nn.init as init
-import torchvision.datasets as datasets # 이미지 데이터셋 집합체
 import torchvision.transforms as transforms # 이미지 변환 툴
 import torchvision
-from torch.utils.data import DataLoader # 학습 및 배치로 모델에 넣어주기 위한 툴
-
 from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None

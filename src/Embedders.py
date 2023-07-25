@@ -1,11 +1,6 @@
 import numpy as np
 import torch
 import torch.nn as nn
-from gensim.models import KeyedVectors
-from gensim.models.fasttext import FastText as FT
-from gensim.scripts.glove2word2vec import glove2word2vec
-
-from transformers import BertTokenizerFast
 
 
 class Embedders:

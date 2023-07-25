@@ -2,9 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from transformers import BertForSequenceClassification as bt
-
-import random
 
 batch_size = 256
 

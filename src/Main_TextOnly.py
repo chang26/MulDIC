@@ -1,10 +1,11 @@
 import os
 import numpy as np
 from collections import Counter
-import json
 import time
 import torch
 import torch.nn as nn
+import pandas as pd
+import random
 
 from TextPreprocessor import TextPreprocessor
 from Trainer import Trainer
@@ -16,9 +17,6 @@ from sklearn.metrics import recall_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import accuracy_score
 
-import pandas as pd
-from sklearn.model_selection import train_test_split
-import random
 
 seed_val = 0
 random.seed(seed_val)

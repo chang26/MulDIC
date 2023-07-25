@@ -1,5 +1,4 @@
 import torch
-import os
 from Model import Model
 from torch.utils.data import TensorDataset
 from torch.utils.data import DataLoader

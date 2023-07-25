@@ -28,4 +28,4 @@ AppliedSciences_MulDIC: A Multimodal Deep Learning Model using Text, Image, and 
 
 2) Extract all the folders inside 'empty folders.7z' to the 'src' folder.
 
-3) execute MAIN_XXX.py
+3) execute MAIN_XXX.py (In the run() function, replace 'modelPath' and 'project' with what you want.)

@@ -18,6 +18,7 @@ AppliedSciences_MulDIC: A Multimodal Deep Learning Model using Text, Image, and 
 ## Used Module Dependency
  * torch==1.13.1 (Can find from https://pytorch.org/)
  * torchvision==0.14.1 (Can find from https://pytorch.org/)
+ * torchaudio==0.13.1 (Can find from https://pytorch.org/)
  * The others can find in requirements.txt
 <!-- 
 # Sequence
